@@ -1,6 +1,6 @@
-## 01 Project
+## 02 Project
 
-I have written my first **Dockerfile** where I have run a simple nodejs application inside a single container. The nodejs application is using port 3000
+I have written my first **Dockerfile** where I have run a simple nodejs application inside a single container. The nodejs application is using port 80
 
 ### Working with container
 
@@ -13,7 +13,7 @@ docker build -t <IMAGE_NAME> .
 2 - After building image, you can execute the following command in the terminal to run the container:
 
 ```sh
-docker run --name <CONTAINER_NAME> -p 3000:3000 <IMAGE_NAME>
+docker run --name <CONTAINER_NAME> -p 80:80 <IMAGE_NAME>
 ```
 
 3 - You can see the status of the containers by executing the following command in the another terminal tab:
@@ -31,5 +31,5 @@ docker stop <CONTAINER_NAME>
 5 - Visit the browser on the following link and you will get your node application:
 
 ```sh
-http://localhost:3000
+http://localhost:80
 ```
