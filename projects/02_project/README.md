@@ -33,3 +33,5 @@ docker stop <CONTAINER_NAME>
 ```sh
 http://localhost:80
 ```
+
+![02-project-docker](https://user-images.githubusercontent.com/19389145/225526095-eadaee4c-51dc-48c1-b2c9-676bd7374a6d.png)
