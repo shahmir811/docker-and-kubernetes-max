@@ -1,0 +1,38 @@
+List of all running containers
+docker ps 
+
+---------------------------------------------------------------------------
+
+List of all running and stop containers
+docker ps -a
+
+---------------------------------------------------------------------------
+
+Start the stopped container
+docker start <CONTAINER_ID>
+docker start <CONTAINER_NAME>
+
+---------------------------------------------------------------------------
+
+Start the stopped container in attach mode:
+docker start -a <CONTAINER_ID>
+docker start -a <CONTAINER_NAME>
+
+---------------------------------------------------------------------------
+
+Run docker container in detached mode:
+docker run --name <CONTAINER_NAME> -p 3000:3000 -d <IMAGE_NAME> 
+
+You can attach to the detached container again by running:
+docker attach <CONTAINER_NAME>
+docker attach <CONTAINER_ID>
+
+---------------------------------------------------------------------------
+
+Check docker container logs:
+docker logs <CONTAINER_NAME>
+docker logs <CONTAINER_ID>
+
+docker logs --details --follow <DOCKER_ID>
+
+

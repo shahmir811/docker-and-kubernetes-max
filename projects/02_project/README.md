@@ -1,6 +1,6 @@
 ## 02 Project
 
-I have written my first **Dockerfile** where I have run a simple nodejs application inside a single container. The nodejs application is using port 80
+I have written a **Dockerfile** where I have run a simple nodejs application inside a single container. The nodejs application is using port 80
 
 ### Working with container
 
